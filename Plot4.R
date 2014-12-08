@@ -7,6 +7,9 @@
 
 ## First read the data
 
+## Please note that you have to first down load the file zip file to local directory from " Electric power consumption" listed in the project instructions.
+## And unzip the extracted file to be named as "household_power_consumption.txt into your working directory.
+
   explorPrj <- read.table("household_power_consumption.txt", header =TRUE, sep = ";", na.strings="?")
 
 ## Get only the subset of data required for the project
